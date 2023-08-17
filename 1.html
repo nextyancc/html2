@@ -1,0 +1,165 @@
+<div style="font-size: larger;">
+
+
+    <title>公益4.0-PPW-API</title>
+    <style>
+        body {
+            background-color: #fffff;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #0cf;
+            text-shadow: 2px 2px 4px rgba(255, 254, 255, 0.6);
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .btn {
+            color: #fff;
+            background: linear-gradient(135deg, #ff1a75, #7700ff, #00e0ff);
+            border: none;
+            border-radius: 4px;
+            font-size: 20px;
+            padding: 12px 24px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .btn:hover {
+            background: linear-gradient(135deg, #7700ff, #ff1a75, #00e0ff);
+            transform: scale(1.05);
+        }
+        .ai-icon {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #ff1a75, #7700ff, #00e0ff);
+            border-radius: 50%;
+            line-height: 80px;
+            text-align: center;
+            font-size: 40px;
+            color: #fff;
+            margin-bottom: 20px;
+            animation: spinAnimation 3s linear infinite, pulseGlowAnimation 2s linear infinite;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .api-platform {
+            font-size: 18px;
+            color: #999;
+            margin-bottom: 40px;
+        }
+        .api-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .api-link {
+            margin: 0 10px;
+        }
+        .buy-coffee {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .buy-coffee img {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            animation: fadeInAnimation 1.5s ease-in-out alternate infinite;
+        }
+        .conversation {
+            margin-top: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .user-message,
+        .ai-message {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .user-message {
+            text-align: left;
+            color: #0cf;
+        }
+        .ai-message {
+            text-align: right;
+            color: #f895fd;
+        }
+        .user-message::before,
+        .ai-message::before {
+            content: "> ";
+            font-weight: bold;
+        }
+        @keyframes spinAnimation {
+            0% {
+                transform: rotate(0);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes pulseGlowAnimation {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 0, 255, 0.8);
+            }
+            100% {
+                box-shadow: 0 0 0 20px rgba(255, 0, 255, 0);
+            }
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+
+    <div class="container">
+        <div class="ai-icon">AI</div>
+        <h1>公益4.0-PPW-API</h1>
+        <p class="api-platform">解锁AI的潜力，体验强大的API平台</p>
+        <p style="color: #000;">注册赠送10美金公益额度<br>邀请一个用户奖励10美金额度</p>
+        <p style="color: #000;">由于是公益的，采用邀请奖励制<br></p>
+        <p style="color: #000;">支持GPT3.5各版本、GPT4-0314、GPT4-0613等</p>
+        <div class="api-links">
+            <div class="api-link">
+                <a class="btn" href="https://xqdoo00o.github.io/chatgpt-web/">立即在线体验</a>
+            </div>
+        </div>
+        <div class="buy-coffee">
+            <img src="https://chat.super-api.cn/wechat1.png" alt="微信支付">
+            <a class="btn" href="https://chat.super-api.cn/wechat.png" target="_blank">赏杯咖啡（微信支付）</a>
+            <img src="https://chat.super-api.cn/ailpay.png" alt="支付宝">
+            <a class="btn" href="https://chat.super-api1.cn/ailpay.png" target="_blank">赏杯咖啡（支付宝）</a>
+        </div>
+    </div>
+
+
+</div>
